@@ -9,6 +9,15 @@ media
 *.py[cod] 
 *$py.class 
 
+
+# Vim #
+*~
+*.py.swp
+*.swp
+*.swo
+
+**/.DS_Store
+
 pip-log.txt 
 pip-delete-this-directory.txt 
 
