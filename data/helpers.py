@@ -3,6 +3,11 @@ import os
 import os.path
 import re
 import json
+from django.db import connection
+
+DB_CURSOR = connection.cursor()
+DB_VENDOR = connection.vendor
+DATA_LOCATION = "data/csv/"
 
 
 def with_iterable(context, iterable=None):
@@ -15,8 +20,26 @@ def with_iterable(context, iterable=None):
 
 def load_data(file_name):
     return csv.reader(
-        with_iterable(open(DATA_LOCATION + file_name, "rt", encoding="utf8")), delimiter=","
+        with_iterable(open(DATA_LOCATION + file_name, "rt", encoding="utf8")),
+        delimiter=","
     )
+
+
+def clear_table(model):
+    table_name = model._meta.db_table
+    model.objects.all().delete()
+    if DB_VENDOR == "sqlite":
+        DB_CURSOR.execute(
+            "DELETE FROM sqlite_sequence WHERE name = " + "'" + table_name + "'"
+        )
+    else:
+        DB_CURSOR.execute(
+            "SELECT setval(pg_get_serial_sequence("
+            + "'"
+            + table_name
+            + "'"
+            + ",'id'), 1, false);"
+        )
 
 
 def build_generic(model_classes, file_name, csv_record_to_objects):

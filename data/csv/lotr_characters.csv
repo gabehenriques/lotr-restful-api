@@ -1,16 +1,16 @@
 name,height,race,gender,birth,spouse,death,realm,hair,wikiUrl
-Aragorn II Elessar,198,Human,Male,"March 1 ,2931",Arwen,FO 120,"Reunited Kingdom,Arnor,Gondor",Dark,http://lotr.wikia.com//wiki/Aragorn_II_Elessar
-Legolas,192,Elf,Male,TA 87,Arwen,"Still alive, departed to ,Aman ,FO 120",,"Uncertain (book), Blonde (films)",http://lotr.wikia.com//wiki/Legolas
-Frodo Baggins,106,Hobbit,Male,"22 September, TA 2968",None,"Unknown (Last sighting ,September 29 ,3021,) (,SR 1421,)",,Brown,http://lotr.wikia.com//wiki/Frodo_Baggins
-Gandalf,171,Maiar,Male,Before the the Shaping of Arda,None,"January 253019 ,Battle of the Peak immortal",,"Grey, later white",http://lotr.wikia.com//wiki/Gandalf
-Gollum,109,Hobbit,Male,TA 2430,None,"March 25 ,3019",,,http://lotr.wikia.com//wiki/Gollum
-Sauron,278,Maiar,Male,"Before the creation of ,Arda",None,"March 25 ,3019",,Various,http://lotr.wikia.com//wiki/Sauron
-Boromir,193,Human,Male,TA 2978,,"February 26 ,3019",,Dark (book) Light brown (movie),http://lotr.wikia.com//wiki/Boromir
-Gimli,137,Dwarf,Male,TA 2879,,"Unknown (Departed to ,Aman ,FO 120,)",,Auburn,http://lotr.wikia.com//wiki/Gimli
-Galadriel,193,Elf,Female,Y.T. 1362 Tirion,Celeborn,"Still alive: Departed over the sea on ,September 29 ,3021","Eregion,Lothlórien,Caras Galadhon",Golden,http://lotr.wikia.com//wiki/Galadriel
-Samwise Gamgee,122,Hobbit,Male,"April 6, 2980",Rosie Cotton,"Still alive, after going to the ,Undying Lands, in ,FO 61",,Blond (movie),http://lotr.wikia.com//wiki/Samwise_Gamgee
-Saruman,152,Maiar,Male,"Before the creation of ,Arda",None,"3 November ,3019","Isengard,Nan Curunír",White,http://lotr.wikia.com//wiki/Saruman
-Bilbo Baggins,125,Hobbit,Male,"22 September ,TA 2890",None,"Unknown (Last sighting 29 SeptemberTA 3021,) (,SR 1421,)",,"Brown, later white",http://lotr.wikia.com//wiki/Bilbo_Baggins
-Peregrin Took,134,Hobbit,Male,TA 2990,Diamond of Long Cleeve,FO 65,,Almost golden,http://lotr.wikia.com//wiki/Peregrin_Took
-Meriadoc Brandybuck,138,Hobbit,Male,TA 2982,Estella (Bolger) Brandybuck,FO 65,,Golden yellow (film),http://lotr.wikia.com//wiki/Meriadoc_Brandybuck
-Elrond,198,Elf,Male,FA 532,Celebrían,"Still alive; departed to ,Aman, on ,September 29 ,3021",Rivendell,Dark,http://lotr.wikia.com//wiki/Elrond
+Aragorn II Elessar,198,Human,Male,"March 1, TA 2931",Arwen,FO 120,Reunited Kingdom,Dark,http://lotr.wikia.com//wiki/Aragorn_II_Elessar
+Legolas,192,Elf,Male,,Arwen,,Woodland Realm Ithilien,Blonde,http://lotr.wikia.com//wiki/Legolas
+Frodo Baggins,106,Hobbit,Male,"22 September, TA 2968",,,,Brown,http://lotr.wikia.com//wiki/Frodo_Baggins
+Gandalf,171,Maiar,Male,,,"January 25, T 3019",,"Grey, White",http://lotr.wikia.com//wiki/Gandalf
+Gollum,109,Hobbit,Male,TA 2430,25 March T.A. 3019,"March 25, TA 3019",,,http://lotr.wikia.com//wiki/Gollum
+Sauron,278,Maiar,Male,,,"March 25, TA 3019",Mordor,,http://lotr.wikia.com//wiki/Sauron
+Boromir,193,Human,Male,TA 2978,,"February 26 ,TA 3019",Gondor,Light brown,http://lotr.wikia.com//wiki/Boromir
+Gimli,137,Dwarf,Male,TA 2879,,,"Thorin's Halls, Lonely Mountain, Glittering Caves",Auburn,http://lotr.wikia.com//wiki/Gimli
+Galadriel,193,Elf,Female,YT 1362,Celeborn,,"Tirion, Doriath, Lindon, Eregion, Lothlórien",Golden,http://lotr.wikia.com//wiki/Galadriel
+Samwise Gamgee,122,Hobbit,Male,"April 6, TA 2980",Rosie Cotton,,,Blond,http://lotr.wikia.com//wiki/Samwise_Gamgee
+Saruman,152,Maiar,Male,,,"3 November, TA 3019","Isengard, Nan Curunír",White,http://lotr.wikia.com//wiki/Saruman
+Bilbo Baggins,125,Hobbit,Male,"September 22,TA 2890",,,,"Brown, white",http://lotr.wikia.com//wiki/Bilbo_Baggins
+Peregrin Took,134,Hobbit,Male,TA 2990,Diamond of Long Cleeve,,,Blond,http://lotr.wikia.com//wiki/Peregrin_Took
+Meriadoc Brandybuck,138,Hobbit,Male,TA 2982,Estella (Bolger) Brandybuck,,,Blond,http://lotr.wikia.com//wiki/Meriadoc_Brandybuck
+Elrond,198,Elf,Male,FA 532,Celebrían,,Rivendell,Brown,http://lotr.wikia.com//wiki/Elrond
