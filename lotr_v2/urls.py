@@ -5,6 +5,7 @@ from lotr_v2.api import *
 router = routers.DefaultRouter()
 
 
+router.register(r"race", RaceResource)
 router.register(r"character", CharacterResource)
 
 

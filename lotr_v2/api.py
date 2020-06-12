@@ -24,7 +24,7 @@ class ListOrDetailSerialRelation:
 class NameOrIdRetrieval:
     """
     Mixin to allow retrieval of resources by
-    ch (in this case ID) or by name
+    pk (in this case ID) or by name
     """
 
     idPattern = re.compile(r"^-?[0-9]+$")
@@ -33,12 +33,12 @@ class NameOrIdRetrieval:
     def get_object(self):
         queryset = self.get_queryset()
         queryset = self.filter_queryset(queryset)
-        lookup = self.kwargs["ch"]
+        lookup = self.kwargs["pk"]
 
         print('lookup', lookup)
 
         if self.idPattern.match(lookup):
-            resp = get_object_or_404(queryset, ch=lookup)
+            resp = get_object_or_404(queryset, pk=lookup)
 
         elif self.namePattern.match(lookup):
             resp = get_object_or_404(queryset, name=lookup)
@@ -58,4 +58,10 @@ class LotrApiCommonViewset(
 class CharacterResource(LotrApiCommonViewset):
     queryset = Character.objects.all()
     serializer_class = CharacterDetailSerializer
-    list_serializer_class = CharacterDetailSerializer
+    list_serializer_class = CharacterSummarySerializer
+
+
+class RaceResource(LotrApiCommonViewset):
+    queryset = Race.objects.all()
+    serializer_class = RaceDetailSerializer
+    list_serializer_class = RaceSummarySerializer
