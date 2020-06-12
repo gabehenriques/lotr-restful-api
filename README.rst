@@ -1,4 +1,4 @@
-The Lord of the Things RESTful API
+The Lord of the Rings RESTful API
 ==================================
 
 **Note:** This project is under development.
@@ -25,7 +25,7 @@ After that, start the migration process
 Database Seeding
 ----------------
 
-Use the ``build_all()`` method using the django shell to populate the database
+Use the ``build_all()`` method in the django shell to populate the database
 
 .. code-block:: text
 
