@@ -22,8 +22,6 @@ def _build_characters():
             hair=str(info[8])
         )
 
-    print(Character.__dict__)
-
     build_generic((Character,), CHARACTERS_FILE, csv_record_to_objects)
 
 
