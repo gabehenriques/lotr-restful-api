@@ -1,16 +1,16 @@
-name,height,race,gender,birth,spouse,death,realm,hair,wikiUrl
-Aragorn II Elessar,198,Human,Male,"March 1, TA 2931",Arwen,FO 120,Reunited Kingdom,Dark,http://lotr.wikia.com//wiki/Aragorn_II_Elessar
-Legolas,192,Elf,Male,,Arwen,,Woodland Realm Ithilien,Blonde,http://lotr.wikia.com//wiki/Legolas
-Frodo Baggins,106,Hobbit,Male,"22 September, TA 2968",,,,Brown,http://lotr.wikia.com//wiki/Frodo_Baggins
-Gandalf,171,Maiar,Male,,,"January 25, T 3019",,"Grey, White",http://lotr.wikia.com//wiki/Gandalf
-Gollum,109,Hobbit,Male,TA 2430,25 March T.A. 3019,"March 25, TA 3019",,,http://lotr.wikia.com//wiki/Gollum
-Sauron,278,Maiar,Male,,,"March 25, TA 3019",Mordor,,http://lotr.wikia.com//wiki/Sauron
-Boromir,193,Human,Male,TA 2978,,"February 26 ,TA 3019",Gondor,Light brown,http://lotr.wikia.com//wiki/Boromir
-Gimli,137,Dwarf,Male,TA 2879,,,"Thorin's Halls, Lonely Mountain, Glittering Caves",Auburn,http://lotr.wikia.com//wiki/Gimli
-Galadriel,193,Elf,Female,YT 1362,Celeborn,,"Tirion, Doriath, Lindon, Eregion, Lothlórien",Golden,http://lotr.wikia.com//wiki/Galadriel
-Samwise Gamgee,122,Hobbit,Male,"April 6, TA 2980",Rosie Cotton,,,Blond,http://lotr.wikia.com//wiki/Samwise_Gamgee
-Saruman,152,Maiar,Male,,,"3 November, TA 3019","Isengard, Nan Curunír",White,http://lotr.wikia.com//wiki/Saruman
-Bilbo Baggins,125,Hobbit,Male,"September 22,TA 2890",,,,"Brown, white",http://lotr.wikia.com//wiki/Bilbo_Baggins
-Peregrin Took,134,Hobbit,Male,TA 2990,Diamond of Long Cleeve,,,Blond,http://lotr.wikia.com//wiki/Peregrin_Took
-Meriadoc Brandybuck,138,Hobbit,Male,TA 2982,Estella (Bolger) Brandybuck,,,Blond,http://lotr.wikia.com//wiki/Meriadoc_Brandybuck
-Elrond,198,Elf,Male,FA 532,Celebrían,,Rivendell,Brown,http://lotr.wikia.com//wiki/Elrond
+identifier,height,race_id,gender,birth,spouse,death,realm,hair
+aragorn ii elessar,198,6,male,ta 2931,arwen,fo 120,reunited kingdom,dark
+legolas,192,2,male,,arwen,,woodland realm ithilien,blonde
+frodo baggins,106,4,male,ta 2968,,,,brown
+gandalf,171,5,male,,,ta 3019,,"grey, white"
+gollum,109,4,male,ta 2430,,ta 3019,,
+sauron,278,5,male,,,ta 3019,mordor,
+boromir,193,6,male,ta 2978,,ta 3019,gondor,light brown
+gimli,137,1,male,ta 2879,,,"thorin's halls, lonely mountain, glittering caves",auburn
+galadriel,193,2,female,yt 1362,celeborn,,"tirion, doriath, lindon, eregion, lothlórien",golden
+samwise gamgee,122,4,male,ta 2980,rosie cotton,,,blond
+saruman,152,5,male,,,ta 3019,"isengard, nan curunír",white
+bilbo baggins,125,4,male,ta 2890,,,,"brown, white"
+peregrin took,134,4,male,ta 2990,diamond of long cleeve,,,blond
+meriadoc brandybuck,138,4,male,ta 2982,estella bolger,,,blond
+elrond,198,2,male,fa 532,celebrían,,rivendell,brown
