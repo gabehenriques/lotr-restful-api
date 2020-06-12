@@ -1,13 +1,45 @@
 from django.db import models
 
 
-class Character(models.Model):
+class HasName(models.Model):
 
-    name = models.CharField(max_length=60, default=None)
+    identifier = models.CharField(max_length=100, db_index=True, default=None)
+
+    class Meta:
+        abstract = True
+
+
+class HasCharacter(models.Model):
+
+    character = models.ForeignKey(
+        "Character",
+        blank=True,
+        null=True,
+        related_name="%(class)s",
+        on_delete=models.CASCADE,
+    )
+
+    class Meta:
+        abstract = True
+
+
+class HasRace(models.Model):
+
+    race = models.ForeignKey(
+        "Race",
+        blank=True,
+        null=True,
+        related_name="%(class)s",
+        on_delete=models.CASCADE,
+    )
+
+    class Meta:
+        abstract = True
+
+
+class Character(HasName, HasRace):
 
     height = models.FloatField(null=True, blank=True, default=None)
-
-    race = models.CharField(max_length=20, default=None)
 
     gender = models.CharField(max_length=10, default=None)
 
@@ -21,4 +53,9 @@ class Character(models.Model):
 
     hair = models.CharField(max_length=20, default=None)
 
-    wiki = models.CharField(max_length=90, default=None)
+    def __str__(self):
+        return '%s: ' % (self.identifier)
+
+
+class Race(HasName):
+    type = models.CharField(max_length=50, default=None)
