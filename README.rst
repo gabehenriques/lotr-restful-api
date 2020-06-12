@@ -1,6 +1,8 @@
 The Lord of the Things RESTful API
 ==================================
 
+**Note:** This project is under development.
+
 This project provides a restful interface to search and access data from the novel `The Lord of the Rings`_.
 
 Installing with Docker
