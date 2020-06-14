@@ -16,6 +16,9 @@ class CharacterSummarySerializer(serializers.HyperlinkedModelSerializer):
 
 
 class RaceDetailSerializer(serializers.ModelSerializer):
+
+    character = CharacterSummarySerializer(many=True, read_only=True)
+
     class Meta:
         model = Race
         fields = ("identifier", "character")
