@@ -38,4 +38,4 @@ def _build_races():
 
 def build_all():
     _build_characters()
-    # _build_races()
+    _build_races()
