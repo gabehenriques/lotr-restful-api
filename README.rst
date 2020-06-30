@@ -8,6 +8,18 @@ This project provides a restful interface to search and access data from the nov
 Installing with Docker
 ----------------------
 
+Create a ``.env`` :file:
+
+.. code-block:: text
+
+    touch .env
+
+Add your ``SECRET_KEY`` to the ``.env`` file
+
+.. code-block:: text
+
+    SECRET_KEY=your-secret-key
+
 Download and install project dependencies
 
 .. code-block:: text
