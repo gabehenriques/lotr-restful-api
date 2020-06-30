@@ -56,6 +56,8 @@ Running
 
     CURL -X GET http://localhost:8000/api/v2/character/?limit=5&offset=5
 
+.. code-block:: json
+
     {
         "count": 15,
         "next": "http://localhost:8000/api/v2/character/?limit=5&offset=10",
