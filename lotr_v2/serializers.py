@@ -10,9 +10,14 @@ class RaceSummarySerializer(serializers.HyperlinkedModelSerializer):
 
 
 class CharacterSummarySerializer(serializers.HyperlinkedModelSerializer):
+    name = serializers.SerializerMethodField('get_character_name')
+
     class Meta:
         model = Character
-        fields = ("identifier", "url")
+        fields = ("name", "url")
+
+    def get_character_name(self, obj):
+        return obj.identifier
 
 
 class RaceDetailSerializer(serializers.ModelSerializer):
