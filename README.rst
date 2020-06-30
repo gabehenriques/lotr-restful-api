@@ -8,7 +8,7 @@ This project provides a restful interface to search and access data from the nov
 Installing with Docker
 ----------------------
 
-Create a ``.env`` :file:
+Create a ``.env`` file:
 
 .. code-block:: text
 
@@ -47,6 +47,42 @@ Use the ``build_all()`` method in the django shell to populate the database
 
     from data.build import build_all
     build_all()
+
+
+Running
+-----------------
+
+.. code-block:: curl
+
+    CURL -X GET http://localhost:8000/api/v2/character/?limit=5&offset=5
+
+    {
+        "count": 15,
+        "next": "http://localhost:8000/api/v2/character/?limit=5&offset=10",
+        "previous": "http://localhost:8000/api/v2/character/?limit=5",
+        "results": [
+            {
+                "name": "sauron",
+                "url": "http://localhost:8000/api/v2/character/6/"
+            },
+            {
+                "name": "boromir",
+                "url": "http://localhost:8000/api/v2/character/7/"
+            },
+            {
+                "name": "gimli",
+                "url": "http://localhost:8000/api/v2/character/8/"
+            },
+            {
+                "name": "galadriel",
+                "url": "http://localhost:8000/api/v2/character/9/"
+            },
+            {
+                "name": "samwise gamgee",
+                "url": "http://localhost:8000/api/v2/character/10/"
+            }
+        ]
+    }
 
 
 Browse ``localhost/api/v2/``
