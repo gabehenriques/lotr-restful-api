@@ -49,8 +49,8 @@ Use the ``build_all()`` method in the django shell to populate the database
     build_all()
 
 
-Running
------------------
+Example
+--------
 
 .. code-block:: curl
 
@@ -85,8 +85,5 @@ Running
             }
         ]
     }
-
-
-Browse ``localhost/api/v2/``
 
 .. _`The Lord of the Rings`: https://en.wikipedia.org/wiki/The_Lord_of_the_Rings
